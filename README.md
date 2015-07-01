@@ -1,6 +1,6 @@
 # co
 
-PHP implementation of tj/co. Uses co-routines (php>=5.5.0) to handle asynchronicity in an apparently synchronous manner.
+PHP implementation of [tj/co](https://github.com/tj/co). Uses [generator functions](http://php.net/manual/en/language.generators.overview.php) and co-routines (php>=5.5.0) to handle asynchronicity in an apparently synchronous manner.
 
 ## Install
 
