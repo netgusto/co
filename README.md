@@ -13,8 +13,6 @@ use React\EventLoop\Factory as EventLoopFactory,
     React\Socket\Server as SocketServer,
     React\Http\Server as HttpServer;
 
-use co;
-
 $loop = EventLoopFactory::create();
 $socket = new SocketServer($loop);
 $http = new HttpServer($socket);
@@ -41,4 +39,6 @@ $http->on('request', function($req, $res) use (&$gen) {
 
 $socket->listen(3000);
 $loop->run();
+
+echo "Magic happens on http://localhost:3000\n";
 ```
