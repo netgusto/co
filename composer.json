@@ -1,6 +1,19 @@
 {
+    "name": "netgusto/co",
+    "description": "PHP implementation of tj/co",
+    "keywords": ["react", "reactphp", "coroutine", "asynchronous", "async"],
+    "license": "MIT",
+    "autoload": {
+        "files": ["src/co.php"]
+    },
+    "authors": [
+        {
+            "name": "Jérôme Schneider / Net Gusto",
+            "email": "contact@netgusto.com"
+        }
+    ],
     "require": {
-        "silex/silex": "^1.3",
+        "php": ">=5.5.0",
         "react/react": "^0.4.2",
         "react/promise": "^2.2"
     }
