@@ -60,6 +60,6 @@ $loop->run();
 
 ## Roadmap
 
-- [] Tests
-- [] Error management
-- [] Port koajs to php :)
+- [ ] Tests
+- [ ] Error management
+- [ ] Port koajs to php :)
