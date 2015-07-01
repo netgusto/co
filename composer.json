@@ -1,0 +1,7 @@
+{
+    "require": {
+        "silex/silex": "^1.3",
+        "react/react": "^0.4.2",
+        "react/promise": "^2.2"
+    }
+}
