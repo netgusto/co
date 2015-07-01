@@ -2,6 +2,12 @@
 
 PHP implementation of tj/co. Uses co-routines (php>=5.5.0) to handle asynchronicity in an apparently synchronous manner.
 
+## Install
+
+```bash
+composer require netgusto/co
+```
+
 ## Example
 
 ```php
