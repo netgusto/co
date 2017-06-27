@@ -57,9 +57,3 @@ echo "Magic happens on http://localhost:3000\n";
 $socket->listen(3000);
 $loop->run();
 ```
-
-## Roadmap
-
-- [ ] Tests
-- [ ] Error management
-- [ ] Port koajs to php :)
